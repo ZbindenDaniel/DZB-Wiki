@@ -6,22 +6,178 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Wiki-Artige Dokumentensammlung zur projektorganisation">
+        <meta name="description" content="graph TD
+  Zucc[Zuccini] --- |Companion| Ring[Ringelblume];
+  Zucc --- |Companion| Mint[Minze];
+  Zucc --- |Companion| Rosm[Rosmarin];
+  Zucc --- |Companion| Lave[Lavendel];
+  Zucc --- |Companion| Bohn;
+  Zucc --- |Companion| Toma[Tomaten];
+  Zucc --- |Companion| Pepp[Pepperoni];
+  Zucc --- |Companion| Nasturtium;
+  Zucc --- |Companion| Marigold;
+  Zucc --- |Companion| Dill;
+  Zucc --- |Companion| Thyme;
+  Zucc --- |Companion| Garlic[Knoblauch];
+  Zucc --- |Companion| Onio;
+  Zucc --- |Companion| Borage;
+  Zucc --- |Companion| Yarrow;
+  Zucc --- |Companion| Peas;
+  Zucc --- |Companion| Oregano;
+  Zucc --- |Companion| Sage;
+  Zucc --- |Companion| Corn;
+  Zucc --- |Companion| Clover;
+  Zucc --- |Companion| Alyssum;
+  Zucc --- |Companion| Echinacea;
+  Zucc --- |Companion| Zinnias;
+  Zucc --- |Companion| Phacelia;
+
+  Bohn --- |Companion| Rosm;
+  Bohn --- |Companion| Toma;
+  Bohn --- |Companion| Himb;
+  Bohn --- |Nicht passend| Pepp;
+  Bohn --- |Nicht passend| Onio[Zwiebeln];
+  %%Bohn --- |Nicht passend| Sunf[Sonnenblume];
+  %%Bohn --- |Nicht passend| Fennel;
+  %%Bohn --- |Nicht passend| Pota[Kartoffel];
+  %%Bohn --- |Companion| Corn[Mais];
+  %%%Bohn --- |Companion| Kale[Kohl];
+  %%%Bohn --- |Nicht passend| Pumpkin;
+  %%%Bohn --- |Nicht passend| SweetPotatoes;
+
+  Goji[Goji] --- |Companion| Spin[Spinat];
+  Goji --- |Companion| Heid[Heidelbeeren];
+  Goji --- |Companion| Himb[Himbeeren];
+  Goji --- |Companion| Toma;
+
+  Leek[Lauch] --- |Companion| Himb;
+  Leek --- |Companion| Himb;
+  Leek --- |Companion| Toma;
+  Leek --- |Companion| Ring;
+  Leek --- |Companion| Chill
+  Leek --- |Nicht passend| Bohn;
+  Leek --- |Companion| Pepp;
+  Leek --- |Companion| Onio;
+  Leek --- |Companion| Rosm;
+  Leek --- |Companion| Thyme;
+  Leek --- |Companion| Nasturtium;
+  Leek --- |Companion| Marigold;
+  Leek --- |Companion| Carrots;
+  Leek --- |Companion| Parsnips;
+  Leek --- |Companion| Celery;
+  Leek --- |Companion| Beets;
+  Leek --- |Companion| Brassicas;
+  Leek --- |Companion| Chamomile;
+
+  Himb --- |Companion| Spin;
+  Himb --- |Companion| Garlic;
+  Himb --- |Companion| Marigold;
+  Himb --- |Companion| Thyme;
+  Himb --- |Companion| Dill;
+  Himb --- |Companion| Borage;
+  Himb --- |Companion| Yarrow;
+  Himb --- |Companion| Asparagus;
+  Himb --- |Companion| Rhubarb;
+  Himb --- |Companion| Lettuce;
+
+  Toma --- |Companion| Basi[Basilikum];
+  Toma --- |Companion| Ring;
+  Toma --- |Companion| Lave;
+  Toma --- |Companion| Mint;
+  Toma --- |Nicht passend| Pepp;
+  Toma --- |Nicht passend| Dill;
+  Toma --- |Nicht passend| Rosm;
+  Toma --- |Companion| Garlic;
+  Toma --- |Companion| Marigold;
+  Toma --- |Companion| Sunf;
+  Toma --- |Companion| Borage;
+  Toma --- |Nicht passend| Gurk;
+  Toma --- |Companion| Chives;
+  Toma --- |Companion| Asparagus;
+  Toma --- |Companion| Carrots;
+  Toma --- |Companion| Oregano;
+  Toma --- |Companion| Sage;
+  Toma --- |Companion| Parsley;
+  Toma --- |Companion| Radishes;
+
+  Pepp --- |Companion| Basi;
+  Pepp --- |Companion| Dill;
+  Pepp --- |Companion| Lave;
+  Pepp --- |Companion| Garlic;
+  Pepp --- |Companion| Onio;
+  Pepp --- |Companion| Nasturtium;
+  Pepp --- |Companion| Sunf;
+  Pepp --- |Companion| Fennel;
+  Pepp --- |Companion| Peas;
+  Pepp --- |Companion| Clover;
+  Pepp --- |Companion| Cowpeas;
+  Pepp --- |Companion| PakChoi;
+  Pepp --- |Companion| Radish;
+
+  Heid --- |Companion| Erdb[Erdbeere]
+  Heid --- |Companion| Thyme
+  Heid --- |Companion| Farn
+  Heid --- |Companion| Immergrüne
+  Heid --- |Companion| Hartriegel
+  Heid --- |Companion| Rhododendron
+  Heid --- |Companion| Azalee
+  Heid --- |Companion| Heidekraut
+  Heid --- |Companion| Preiselbeersträucher
+  Heid --- |Companion| Akelei
+  Heid --- |Companion| Berglorbeer
+  Heid --- |Companion| Stechpalme
+  Heid --- |Companion| Hortensie
+  Heid --- |Companion| Fliederbusch
+
+  Chill[Chilli] --- |Companion| Basi
+  Chill[Chilli] --- |Companion| Onio
+  Chill[Chilli] --- |Companion| Leek
+  Chill[Chilli] --- |Companion| Garlic
+  Chill[Chilli] --- |Companion| Chives
+  Chill[Chilli] --- |Companion| Scallions
+  Chill[Chilli] --- |Companion| Shallots
+
+  Zucc --&gt;  Foli{Blätter};
+  Zucc --&gt;  Wuch{Wuchernd};
+  Bohn --&gt; Nitr{Stickstoff};
+  Bohn --&gt;  Wuch{Wuchernd};
+  Leek --&gt;  Repe{Insektenschutz};
+
+  Basi --&gt; Repe
+  Garlic --&gt; Repe
+  Fennel --&gt; Repe
+  Lemongrass --&gt; Repe
+  Marigold --&gt; Repe
+  Mint --&gt; Repe
+  Chrysanthemum --&gt; Repe
+  Alliums  --&gt; Repe
+
+
+     classDef selected fill:#9f6,stroke:#333,stroke-width:2px;
+     classDef planned fill:#f96,stroke:#333,stroke-width:4px;
+     class Toma,Pepp,Heid,Chill,Zucc,Bohn,Stra,Goji,Leek,Mint,Basi,Erdb selected
+     class Lave,Farn,Garlic,Spin,Rosm planned
+
+    linkStyle 0 stroke-width:2px,fill:none,stroke:pink;
+    linkStyle 1 stroke-width:2px,fill:none,stroke:blue;
+    linkStyle 2 stroke-width:2px,fill:none,stroke:yellow;
+    linkStyle 3 stroke-width:2px,fill:none,stroke:green;
+Companions">
       
       
       
       
-        <link rel="prev" href="../Heidelbeere/">
+        <link rel="prev" href="../Carob/">
       
       
-        <link rel="next" href="../Hopfen/">
+        <link rel="next" href="../Elsbeere/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.21">
     
     
       
-        <title>Himbeere (Rubus idaeus) - Birgisch</title>
+        <title>Companions - Birgisch</title>
       
     
     
@@ -76,6 +232,8 @@
     
     
     
+        
+    
     
     
 
@@ -98,21 +256,333 @@
 >
 <meta
     property="og:title"
-    content="Himbeere (Rubus idaeus)"
+    content="Companions"
 >
 <meta
     name="twitter:title"
-    content="Himbeere (Rubus idaeus)"
+    content="Companions"
 >
 <meta
     name="og:description"
-    content="Wiki-Artige Dokumentensammlung zur projektorganisation"
+    content="graph TD
+  Zucc[Zuccini] --- |Companion| Ring[Ringelblume];
+  Zucc --- |Companion| Mint[Minze];
+  Zucc --- |Companion| Rosm[Rosmarin];
+  Zucc --- |Companion| Lave[Lavendel];
+  Zucc --- |Companion| Bohn;
+  Zucc --- |Companion| Toma[Tomaten];
+  Zucc --- |Companion| Pepp[Pepperoni];
+  Zucc --- |Companion| Nasturtium;
+  Zucc --- |Companion| Marigold;
+  Zucc --- |Companion| Dill;
+  Zucc --- |Companion| Thyme;
+  Zucc --- |Companion| Garlic[Knoblauch];
+  Zucc --- |Companion| Onio;
+  Zucc --- |Companion| Borage;
+  Zucc --- |Companion| Yarrow;
+  Zucc --- |Companion| Peas;
+  Zucc --- |Companion| Oregano;
+  Zucc --- |Companion| Sage;
+  Zucc --- |Companion| Corn;
+  Zucc --- |Companion| Clover;
+  Zucc --- |Companion| Alyssum;
+  Zucc --- |Companion| Echinacea;
+  Zucc --- |Companion| Zinnias;
+  Zucc --- |Companion| Phacelia;
+
+  Bohn --- |Companion| Rosm;
+  Bohn --- |Companion| Toma;
+  Bohn --- |Companion| Himb;
+  Bohn --- |Nicht passend| Pepp;
+  Bohn --- |Nicht passend| Onio[Zwiebeln];
+  %%Bohn --- |Nicht passend| Sunf[Sonnenblume];
+  %%Bohn --- |Nicht passend| Fennel;
+  %%Bohn --- |Nicht passend| Pota[Kartoffel];
+  %%Bohn --- |Companion| Corn[Mais];
+  %%%Bohn --- |Companion| Kale[Kohl];
+  %%%Bohn --- |Nicht passend| Pumpkin;
+  %%%Bohn --- |Nicht passend| SweetPotatoes;
+
+  Goji[Goji] --- |Companion| Spin[Spinat];
+  Goji --- |Companion| Heid[Heidelbeeren];
+  Goji --- |Companion| Himb[Himbeeren];
+  Goji --- |Companion| Toma;
+
+  Leek[Lauch] --- |Companion| Himb;
+  Leek --- |Companion| Himb;
+  Leek --- |Companion| Toma;
+  Leek --- |Companion| Ring;
+  Leek --- |Companion| Chill
+  Leek --- |Nicht passend| Bohn;
+  Leek --- |Companion| Pepp;
+  Leek --- |Companion| Onio;
+  Leek --- |Companion| Rosm;
+  Leek --- |Companion| Thyme;
+  Leek --- |Companion| Nasturtium;
+  Leek --- |Companion| Marigold;
+  Leek --- |Companion| Carrots;
+  Leek --- |Companion| Parsnips;
+  Leek --- |Companion| Celery;
+  Leek --- |Companion| Beets;
+  Leek --- |Companion| Brassicas;
+  Leek --- |Companion| Chamomile;
+
+  Himb --- |Companion| Spin;
+  Himb --- |Companion| Garlic;
+  Himb --- |Companion| Marigold;
+  Himb --- |Companion| Thyme;
+  Himb --- |Companion| Dill;
+  Himb --- |Companion| Borage;
+  Himb --- |Companion| Yarrow;
+  Himb --- |Companion| Asparagus;
+  Himb --- |Companion| Rhubarb;
+  Himb --- |Companion| Lettuce;
+
+  Toma --- |Companion| Basi[Basilikum];
+  Toma --- |Companion| Ring;
+  Toma --- |Companion| Lave;
+  Toma --- |Companion| Mint;
+  Toma --- |Nicht passend| Pepp;
+  Toma --- |Nicht passend| Dill;
+  Toma --- |Nicht passend| Rosm;
+  Toma --- |Companion| Garlic;
+  Toma --- |Companion| Marigold;
+  Toma --- |Companion| Sunf;
+  Toma --- |Companion| Borage;
+  Toma --- |Nicht passend| Gurk;
+  Toma --- |Companion| Chives;
+  Toma --- |Companion| Asparagus;
+  Toma --- |Companion| Carrots;
+  Toma --- |Companion| Oregano;
+  Toma --- |Companion| Sage;
+  Toma --- |Companion| Parsley;
+  Toma --- |Companion| Radishes;
+
+  Pepp --- |Companion| Basi;
+  Pepp --- |Companion| Dill;
+  Pepp --- |Companion| Lave;
+  Pepp --- |Companion| Garlic;
+  Pepp --- |Companion| Onio;
+  Pepp --- |Companion| Nasturtium;
+  Pepp --- |Companion| Sunf;
+  Pepp --- |Companion| Fennel;
+  Pepp --- |Companion| Peas;
+  Pepp --- |Companion| Clover;
+  Pepp --- |Companion| Cowpeas;
+  Pepp --- |Companion| PakChoi;
+  Pepp --- |Companion| Radish;
+
+  Heid --- |Companion| Erdb[Erdbeere]
+  Heid --- |Companion| Thyme
+  Heid --- |Companion| Farn
+  Heid --- |Companion| Immergrüne
+  Heid --- |Companion| Hartriegel
+  Heid --- |Companion| Rhododendron
+  Heid --- |Companion| Azalee
+  Heid --- |Companion| Heidekraut
+  Heid --- |Companion| Preiselbeersträucher
+  Heid --- |Companion| Akelei
+  Heid --- |Companion| Berglorbeer
+  Heid --- |Companion| Stechpalme
+  Heid --- |Companion| Hortensie
+  Heid --- |Companion| Fliederbusch
+
+  Chill[Chilli] --- |Companion| Basi
+  Chill[Chilli] --- |Companion| Onio
+  Chill[Chilli] --- |Companion| Leek
+  Chill[Chilli] --- |Companion| Garlic
+  Chill[Chilli] --- |Companion| Chives
+  Chill[Chilli] --- |Companion| Scallions
+  Chill[Chilli] --- |Companion| Shallots
+
+  Zucc --&gt;  Foli{Blätter};
+  Zucc --&gt;  Wuch{Wuchernd};
+  Bohn --&gt; Nitr{Stickstoff};
+  Bohn --&gt;  Wuch{Wuchernd};
+  Leek --&gt;  Repe{Insektenschutz};
+
+  Basi --&gt; Repe
+  Garlic --&gt; Repe
+  Fennel --&gt; Repe
+  Lemongrass --&gt; Repe
+  Marigold --&gt; Repe
+  Mint --&gt; Repe
+  Chrysanthemum --&gt; Repe
+  Alliums  --&gt; Repe
+
+
+     classDef selected fill:#9f6,stroke:#333,stroke-width:2px;
+     classDef planned fill:#f96,stroke:#333,stroke-width:4px;
+     class Toma,Pepp,Heid,Chill,Zucc,Bohn,Stra,Goji,Leek,Mint,Basi,Erdb selected
+     class Lave,Farn,Garlic,Spin,Rosm planned
+
+    linkStyle 0 stroke-width:2px,fill:none,stroke:pink;
+    linkStyle 1 stroke-width:2px,fill:none,stroke:blue;
+    linkStyle 2 stroke-width:2px,fill:none,stroke:yellow;
+    linkStyle 3 stroke-width:2px,fill:none,stroke:green;
+Companions"
 >
 <meta
     name="twitter:description"
-    content="Wiki-Artige Dokumentensammlung zur projektorganisation"
+    content="graph TD
+  Zucc[Zuccini] --- |Companion| Ring[Ringelblume];
+  Zucc --- |Companion| Mint[Minze];
+  Zucc --- |Companion| Rosm[Rosmarin];
+  Zucc --- |Companion| Lave[Lavendel];
+  Zucc --- |Companion| Bohn;
+  Zucc --- |Companion| Toma[Tomaten];
+  Zucc --- |Companion| Pepp[Pepperoni];
+  Zucc --- |Companion| Nasturtium;
+  Zucc --- |Companion| Marigold;
+  Zucc --- |Companion| Dill;
+  Zucc --- |Companion| Thyme;
+  Zucc --- |Companion| Garlic[Knoblauch];
+  Zucc --- |Companion| Onio;
+  Zucc --- |Companion| Borage;
+  Zucc --- |Companion| Yarrow;
+  Zucc --- |Companion| Peas;
+  Zucc --- |Companion| Oregano;
+  Zucc --- |Companion| Sage;
+  Zucc --- |Companion| Corn;
+  Zucc --- |Companion| Clover;
+  Zucc --- |Companion| Alyssum;
+  Zucc --- |Companion| Echinacea;
+  Zucc --- |Companion| Zinnias;
+  Zucc --- |Companion| Phacelia;
+
+  Bohn --- |Companion| Rosm;
+  Bohn --- |Companion| Toma;
+  Bohn --- |Companion| Himb;
+  Bohn --- |Nicht passend| Pepp;
+  Bohn --- |Nicht passend| Onio[Zwiebeln];
+  %%Bohn --- |Nicht passend| Sunf[Sonnenblume];
+  %%Bohn --- |Nicht passend| Fennel;
+  %%Bohn --- |Nicht passend| Pota[Kartoffel];
+  %%Bohn --- |Companion| Corn[Mais];
+  %%%Bohn --- |Companion| Kale[Kohl];
+  %%%Bohn --- |Nicht passend| Pumpkin;
+  %%%Bohn --- |Nicht passend| SweetPotatoes;
+
+  Goji[Goji] --- |Companion| Spin[Spinat];
+  Goji --- |Companion| Heid[Heidelbeeren];
+  Goji --- |Companion| Himb[Himbeeren];
+  Goji --- |Companion| Toma;
+
+  Leek[Lauch] --- |Companion| Himb;
+  Leek --- |Companion| Himb;
+  Leek --- |Companion| Toma;
+  Leek --- |Companion| Ring;
+  Leek --- |Companion| Chill
+  Leek --- |Nicht passend| Bohn;
+  Leek --- |Companion| Pepp;
+  Leek --- |Companion| Onio;
+  Leek --- |Companion| Rosm;
+  Leek --- |Companion| Thyme;
+  Leek --- |Companion| Nasturtium;
+  Leek --- |Companion| Marigold;
+  Leek --- |Companion| Carrots;
+  Leek --- |Companion| Parsnips;
+  Leek --- |Companion| Celery;
+  Leek --- |Companion| Beets;
+  Leek --- |Companion| Brassicas;
+  Leek --- |Companion| Chamomile;
+
+  Himb --- |Companion| Spin;
+  Himb --- |Companion| Garlic;
+  Himb --- |Companion| Marigold;
+  Himb --- |Companion| Thyme;
+  Himb --- |Companion| Dill;
+  Himb --- |Companion| Borage;
+  Himb --- |Companion| Yarrow;
+  Himb --- |Companion| Asparagus;
+  Himb --- |Companion| Rhubarb;
+  Himb --- |Companion| Lettuce;
+
+  Toma --- |Companion| Basi[Basilikum];
+  Toma --- |Companion| Ring;
+  Toma --- |Companion| Lave;
+  Toma --- |Companion| Mint;
+  Toma --- |Nicht passend| Pepp;
+  Toma --- |Nicht passend| Dill;
+  Toma --- |Nicht passend| Rosm;
+  Toma --- |Companion| Garlic;
+  Toma --- |Companion| Marigold;
+  Toma --- |Companion| Sunf;
+  Toma --- |Companion| Borage;
+  Toma --- |Nicht passend| Gurk;
+  Toma --- |Companion| Chives;
+  Toma --- |Companion| Asparagus;
+  Toma --- |Companion| Carrots;
+  Toma --- |Companion| Oregano;
+  Toma --- |Companion| Sage;
+  Toma --- |Companion| Parsley;
+  Toma --- |Companion| Radishes;
+
+  Pepp --- |Companion| Basi;
+  Pepp --- |Companion| Dill;
+  Pepp --- |Companion| Lave;
+  Pepp --- |Companion| Garlic;
+  Pepp --- |Companion| Onio;
+  Pepp --- |Companion| Nasturtium;
+  Pepp --- |Companion| Sunf;
+  Pepp --- |Companion| Fennel;
+  Pepp --- |Companion| Peas;
+  Pepp --- |Companion| Clover;
+  Pepp --- |Companion| Cowpeas;
+  Pepp --- |Companion| PakChoi;
+  Pepp --- |Companion| Radish;
+
+  Heid --- |Companion| Erdb[Erdbeere]
+  Heid --- |Companion| Thyme
+  Heid --- |Companion| Farn
+  Heid --- |Companion| Immergrüne
+  Heid --- |Companion| Hartriegel
+  Heid --- |Companion| Rhododendron
+  Heid --- |Companion| Azalee
+  Heid --- |Companion| Heidekraut
+  Heid --- |Companion| Preiselbeersträucher
+  Heid --- |Companion| Akelei
+  Heid --- |Companion| Berglorbeer
+  Heid --- |Companion| Stechpalme
+  Heid --- |Companion| Hortensie
+  Heid --- |Companion| Fliederbusch
+
+  Chill[Chilli] --- |Companion| Basi
+  Chill[Chilli] --- |Companion| Onio
+  Chill[Chilli] --- |Companion| Leek
+  Chill[Chilli] --- |Companion| Garlic
+  Chill[Chilli] --- |Companion| Chives
+  Chill[Chilli] --- |Companion| Scallions
+  Chill[Chilli] --- |Companion| Shallots
+
+  Zucc --&gt;  Foli{Blätter};
+  Zucc --&gt;  Wuch{Wuchernd};
+  Bohn --&gt; Nitr{Stickstoff};
+  Bohn --&gt;  Wuch{Wuchernd};
+  Leek --&gt;  Repe{Insektenschutz};
+
+  Basi --&gt; Repe
+  Garlic --&gt; Repe
+  Fennel --&gt; Repe
+  Lemongrass --&gt; Repe
+  Marigold --&gt; Repe
+  Mint --&gt; Repe
+  Chrysanthemum --&gt; Repe
+  Alliums  --&gt; Repe
+
+
+     classDef selected fill:#9f6,stroke:#333,stroke-width:2px;
+     classDef planned fill:#f96,stroke:#333,stroke-width:4px;
+     class Toma,Pepp,Heid,Chill,Zucc,Bohn,Stra,Goji,Leek,Mint,Basi,Erdb selected
+     class Lave,Farn,Garlic,Spin,Rosm planned
+
+    linkStyle 0 stroke-width:2px,fill:none,stroke:pink;
+    linkStyle 1 stroke-width:2px,fill:none,stroke:blue;
+    linkStyle 2 stroke-width:2px,fill:none,stroke:yellow;
+    linkStyle 3 stroke-width:2px,fill:none,stroke:green;
+Companions"
 >
-<script> document.title = "Himbeere (Rubus idaeus)" </script>
+<script> document.title = "Companions" </script>
 
   </head>
   
@@ -134,11 +604,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#himbeere-rubus-idaeus" class="md-skip">
-          Zum Inhalt
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -171,7 +636,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Himbeere (Rubus idaeus)
+              Companions
             
           </span>
         </div>
@@ -652,11 +1117,19 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../Companions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Companions
       </a>
+      
     </li>
   
 
@@ -778,81 +1251,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Himbeere (Rubus idaeus)
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Himbeere/" class="md-nav__link">
         Himbeere (Rubus idaeus)
       </a>
-      
-        
-  
-  <nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-    
-    
-    
-      
-    
-    
-      <label class="md-nav__title" for="__toc">
-        <span class="md-nav__icon md-icon"></span>
-        Inhaltsverzeichnis
-      </label>
-      <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-        
-          <li class="md-nav__item">
-  <a href="#kurzbeschrieb" class="md-nav__link">
-    Kurzbeschrieb
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#okosystem-funktionen" class="md-nav__link">
-    Ökosystem Funktionen
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pflege" class="md-nav__link">
-    Pflege
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bodenanspruch" class="md-nav__link">
-    Bodenanspruch
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tabelle" class="md-nav__link">
-    Tabelle
-  </a>
-  
-</li>
-        
-      </ul>
-    
-    
-  </nav>
-      
     </li>
   
 
@@ -1493,53 +1896,17 @@
     
     
     
-      
     
     
-      <label class="md-nav__title" for="__toc">
-        <span class="md-nav__icon md-icon"></span>
-        Inhaltsverzeichnis
-      </label>
-      <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-        
-          <li class="md-nav__item">
-  <a href="#kurzbeschrieb" class="md-nav__link">
-    Kurzbeschrieb
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#okosystem-funktionen" class="md-nav__link">
-    Ökosystem Funktionen
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pflege" class="md-nav__link">
-    Pflege
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bodenanspruch" class="md-nav__link">
-    Bodenanspruch
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tabelle" class="md-nav__link">
-    Tabelle
-  </a>
-  
-</li>
-        
-      </ul>
+<br><br>
+
+<h3>Backlinks:</h3>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
     
+    <li class="md-nav__item"><a href="/TerassenGarten/" class="md-nav__link">TerassenGarten</a></li>
     
+</ul>
+
   </nav>
                   </div>
                 </div>
@@ -1584,128 +1951,167 @@
   page title (or respectively site name) is used as the main headline.
 -->
 
+<h1>Companions</h1>
+
 
 <!-- Page content -->
-<h1 id="himbeere-rubus-idaeus">Himbeere (<em>Rubus idaeus</em>)<a class="headerlink" href="#himbeere-rubus-idaeus" title="Permanent link">&para;</a></h1>
-<h2 id="kurzbeschrieb">Kurzbeschrieb<a class="headerlink" href="#kurzbeschrieb" title="Permanent link">&para;</a></h2>
-<p>Die Himbeere ist ein beliebtes Beerenobst und gehört zur Gattung Rubus der Rosengewächse. Ihre süßen und saftigen Früchte sind rot oder manchmal auch schwarz, abhängig von der Sorte. Sie werden frisch verzehrt, zu Marmeladen verarbeitet oder in verschiedenen Desserts und Gebäcken verwendet.</p>
-<h2 id="okosystem-funktionen">Ökosystem Funktionen<a class="headerlink" href="#okosystem-funktionen" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../../Systemfunktionen/Nahrung/" title="Nahrung">Nahrung</a>:</li>
-<li><a href="../../Systemfunktionen/Best%C3%A4ubung/" title="Bestäubung">Bestäubung</a>: Die Blüten ziehen Bienen und andere bestäubende Insekten an.</li>
-<li><a href="../../Systemfunktionen/Habitat/" title="Habitat">Habitat</a>: Die dichten Himbeersträucher bieten vielen Kleintieren Schutz und Unterschlupf.</li>
-</ul>
-<h2 id="pflege">Pflege<a class="headerlink" href="#pflege" title="Permanent link">&para;</a></h2>
-<p>Himbeersträucher bevorzugen vollsonnige bis leicht schattige Standorte. Sie sollten in gut durchlässigen Boden gepflanzt werden und benötigen regelmäßige Bewässerung. Es wird empfohlen, sie jährlich zu beschneiden, um die Fruchtproduktion zu fördern und die Ausbreitung von Krankheiten zu vermindern.</p>
-<h2 id="bodenanspruch">Bodenanspruch<a class="headerlink" href="#bodenanspruch" title="Permanent link">&para;</a></h2>
-<p>Himbeeren benötigen einen leicht sauren bis neutralen Boden mit einem pH-Wert zwischen 6,0 und 6,8.</p>
-<h2 id="tabelle">Tabelle<a class="headerlink" href="#tabelle" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Sorte</th>
-<th>Zeit bis ausgewachsen</th>
-<th>Höhe ausgewachsen</th>
-<th>Durchmesser ausgewachsen</th>
-<th>Wasseranspruch (1-5)</th>
-<th>Lichtanspruch (1-5)</th>
-<th>Bodenanspruch (1-5)</th>
-<th>pH-Wert</th>
-<th>Ertrag</th>
-<th>Arbeitsaufwand (Stunden/Jahr)</th>
-<th>Schwierigkeitsgrad (1-5)</th>
-<th>Wasseraufnahme (mm/Tag)</th>
-<th>Blütezeit</th>
-<th>Vegetationszeit</th>
-<th>Erntezeit</th>
-<th>Pflanzzeitpunkt</th>
-<th>Typizität</th>
-<th>Frostresistenz (1-5)</th>
-<th>Einheimisch (Schweiz)</th>
-<th>Invasiv (Schweiz)</th>
-<th>Propagation</th>
-<th>Saatgutgetreu (true to seed)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Himbeere</td>
-<td>Heritage</td>
-<td>2-3 Jahre</td>
-<td>1,2-1,5 m</td>
-<td>1 m</td>
-<td>3</td>
-<td>5</td>
-<td>3</td>
-<td>6.5</td>
-<td>Hoch</td>
-<td>8-12</td>
-<td>2</td>
-<td>2-3 mm</td>
-<td>Frühling</td>
-<td>Frühling-Herbst</td>
-<td>Sommer</td>
-<td>Herbst/Frühling</td>
-<td>Strauch</td>
-<td>4</td>
-<td>[x]</td>
-<td>[ ]</td>
-<td>Ableger/Wurzelsprossen</td>
-<td>[x]</td>
-</tr>
-<tr>
-<td>Himbeere</td>
-<td>Glen Ample</td>
-<td>2-3 Jahre</td>
-<td>1,5-2 m</td>
-<td>1,2 m</td>
-<td>3</td>
-<td>5</td>
-<td>3</td>
-<td>6.5</td>
-<td>Hoch</td>
-<td>8-12</td>
-<td>2</td>
-<td>2-3 mm</td>
-<td>Frühling</td>
-<td>Frühling-Herbst</td>
-<td>Frühsommer</td>
-<td>Herbst/Frühling</td>
-<td>Strauch</td>
-<td>4</td>
-<td>[x]</td>
-<td>[ ]</td>
-<td>Ableger/Wurzelsprossen</td>
-<td>[x]</td>
-</tr>
-<tr>
-<td>Himbeere</td>
-<td>Autumn Bliss</td>
-<td>2-3 Jahre</td>
-<td>1-1,5 m</td>
-<td>1 m</td>
-<td>3</td>
-<td>5</td>
-<td>3</td>
-<td>6.5</td>
-<td>Hoch</td>
-<td>8-12</td>
-<td>2</td>
-<td>2-3 mm</td>
-<td>Frühling</td>
-<td>Frühling-Herbst</td>
-<td>Spätsommer</td>
-<td>Herbst/Frühling</td>
-<td>Strauch</td>
-<td>4</td>
-<td>[x]</td>
-<td>[ ]</td>
-<td>Ableger/Wurzelsprossen</td>
-<td>[x]</td>
-</tr>
-</tbody>
-</table>
+<p><pre class="mermaid"><code>graph TD
+  Zucc[Zuccini] --- |Companion| Ring[Ringelblume];
+  Zucc --- |Companion| Mint[Minze];
+  Zucc --- |Companion| Rosm[Rosmarin];
+  Zucc --- |Companion| Lave[Lavendel];
+  Zucc --- |Companion| Bohn;
+  Zucc --- |Companion| Toma[Tomaten];
+  Zucc --- |Companion| Pepp[Pepperoni];
+  Zucc --- |Companion| Nasturtium;
+  Zucc --- |Companion| Marigold;
+  Zucc --- |Companion| Dill;
+  Zucc --- |Companion| Thyme;
+  Zucc --- |Companion| Garlic[Knoblauch];
+  Zucc --- |Companion| Onio;
+  Zucc --- |Companion| Borage;
+  Zucc --- |Companion| Yarrow;
+  Zucc --- |Companion| Peas;
+  Zucc --- |Companion| Oregano;
+  Zucc --- |Companion| Sage;
+  Zucc --- |Companion| Corn;
+  Zucc --- |Companion| Clover;
+  Zucc --- |Companion| Alyssum;
+  Zucc --- |Companion| Echinacea;
+  Zucc --- |Companion| Zinnias;
+  Zucc --- |Companion| Phacelia;
+
+  Bohn --- |Companion| Rosm;
+  Bohn --- |Companion| Toma;
+  Bohn --- |Companion| Himb;
+  Bohn --- |Nicht passend| Pepp;
+  Bohn --- |Nicht passend| Onio[Zwiebeln];
+  %%Bohn --- |Nicht passend| Sunf[Sonnenblume];
+  %%Bohn --- |Nicht passend| Fennel;
+  %%Bohn --- |Nicht passend| Pota[Kartoffel];
+  %%Bohn --- |Companion| Corn[Mais];
+  %%%Bohn --- |Companion| Kale[Kohl];
+  %%%Bohn --- |Nicht passend| Pumpkin;
+  %%%Bohn --- |Nicht passend| SweetPotatoes;
+
+  Goji[Goji] --- |Companion| Spin[Spinat];
+  Goji --- |Companion| Heid[Heidelbeeren];
+  Goji --- |Companion| Himb[Himbeeren];
+  Goji --- |Companion| Toma;
+
+  Leek[Lauch] --- |Companion| Himb;
+  Leek --- |Companion| Himb;
+  Leek --- |Companion| Toma;
+  Leek --- |Companion| Ring;
+  Leek --- |Companion| Chill
+  Leek --- |Nicht passend| Bohn;
+  Leek --- |Companion| Pepp;
+  Leek --- |Companion| Onio;
+  Leek --- |Companion| Rosm;
+  Leek --- |Companion| Thyme;
+  Leek --- |Companion| Nasturtium;
+  Leek --- |Companion| Marigold;
+  Leek --- |Companion| Carrots;
+  Leek --- |Companion| Parsnips;
+  Leek --- |Companion| Celery;
+  Leek --- |Companion| Beets;
+  Leek --- |Companion| Brassicas;
+  Leek --- |Companion| Chamomile;
+
+  Himb --- |Companion| Spin;
+  Himb --- |Companion| Garlic;
+  Himb --- |Companion| Marigold;
+  Himb --- |Companion| Thyme;
+  Himb --- |Companion| Dill;
+  Himb --- |Companion| Borage;
+  Himb --- |Companion| Yarrow;
+  Himb --- |Companion| Asparagus;
+  Himb --- |Companion| Rhubarb;
+  Himb --- |Companion| Lettuce;
+
+  Toma --- |Companion| Basi[Basilikum];
+  Toma --- |Companion| Ring;
+  Toma --- |Companion| Lave;
+  Toma --- |Companion| Mint;
+  Toma --- |Nicht passend| Pepp;
+  Toma --- |Nicht passend| Dill;
+  Toma --- |Nicht passend| Rosm;
+  Toma --- |Companion| Garlic;
+  Toma --- |Companion| Marigold;
+  Toma --- |Companion| Sunf;
+  Toma --- |Companion| Borage;
+  Toma --- |Nicht passend| Gurk;
+  Toma --- |Companion| Chives;
+  Toma --- |Companion| Asparagus;
+  Toma --- |Companion| Carrots;
+  Toma --- |Companion| Oregano;
+  Toma --- |Companion| Sage;
+  Toma --- |Companion| Parsley;
+  Toma --- |Companion| Radishes;
+
+  Pepp --- |Companion| Basi;
+  Pepp --- |Companion| Dill;
+  Pepp --- |Companion| Lave;
+  Pepp --- |Companion| Garlic;
+  Pepp --- |Companion| Onio;
+  Pepp --- |Companion| Nasturtium;
+  Pepp --- |Companion| Sunf;
+  Pepp --- |Companion| Fennel;
+  Pepp --- |Companion| Peas;
+  Pepp --- |Companion| Clover;
+  Pepp --- |Companion| Cowpeas;
+  Pepp --- |Companion| PakChoi;
+  Pepp --- |Companion| Radish;
+
+  Heid --- |Companion| Erdb[Erdbeere]
+  Heid --- |Companion| Thyme
+  Heid --- |Companion| Farn
+  Heid --- |Companion| Immergrüne
+  Heid --- |Companion| Hartriegel
+  Heid --- |Companion| Rhododendron
+  Heid --- |Companion| Azalee
+  Heid --- |Companion| Heidekraut
+  Heid --- |Companion| Preiselbeersträucher
+  Heid --- |Companion| Akelei
+  Heid --- |Companion| Berglorbeer
+  Heid --- |Companion| Stechpalme
+  Heid --- |Companion| Hortensie
+  Heid --- |Companion| Fliederbusch
+
+  Chill[Chilli] --- |Companion| Basi
+  Chill[Chilli] --- |Companion| Onio
+  Chill[Chilli] --- |Companion| Leek
+  Chill[Chilli] --- |Companion| Garlic
+  Chill[Chilli] --- |Companion| Chives
+  Chill[Chilli] --- |Companion| Scallions
+  Chill[Chilli] --- |Companion| Shallots
+
+  Zucc --&gt;  Foli{Blätter};
+  Zucc --&gt;  Wuch{Wuchernd};
+  Bohn --&gt; Nitr{Stickstoff};
+  Bohn --&gt;  Wuch{Wuchernd};
+  Leek --&gt;  Repe{Insektenschutz};
+
+  Basi --&gt; Repe
+  Garlic --&gt; Repe
+  Fennel --&gt; Repe
+  Lemongrass --&gt; Repe
+  Marigold --&gt; Repe
+  Mint --&gt; Repe
+  Chrysanthemum --&gt; Repe
+  Alliums  --&gt; Repe
+
+
+     classDef selected fill:#9f6,stroke:#333,stroke-width:2px;
+     classDef planned fill:#f96,stroke:#333,stroke-width:4px;
+     class Toma,Pepp,Heid,Chill,Zucc,Bohn,Stra,Goji,Leek,Mint,Basi,Erdb selected
+     class Lave,Farn,Garlic,Spin,Rosm planned
+
+    linkStyle 0 stroke-width:2px,fill:none,stroke:pink;
+    linkStyle 1 stroke-width:2px,fill:none,stroke:blue;
+    linkStyle 2 stroke-width:2px,fill:none,stroke:yellow;
+    linkStyle 3 stroke-width:2px,fill:none,stroke:green;</code></pre><br />
+<a href="https://www.gardenersworld.com/plants/10-companion-plants-to-grow/">Companions</a></p>
 
 <!-- Source file information -->
 
@@ -1722,13 +2128,13 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
         <u>Letztes Update</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">26. September 2023</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">23. September 2023</span>
         <!-- mkdocs-git-revision-date-plugin -->
         
         
         <br />
         <u>Erstellt</u> :
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">26. September 2023</span>
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">7. Mai 2023</span>
         
         
         
