@@ -1,0 +1,57 @@
+{
+    "common_name": "Kiwis",
+    "scientific_name": "Actinidia deliciosa",
+    "family": "Actinidiaceae",
+    "genus": "Actinidia",
+    "species": "deliciosa",
+    "synonyms": [
+      "Actinidia chinensis var. deliciosa",
+      "Actinidia macrocarpa",
+      "Actinidia chinensis subsp. deliciosa"
+    ],
+    "description": "Die Kiwi ist eine laubabwerfende Kletterpflanze, die eine Wuchshöhe von bis zu 10 Metern erreichen kann. Die Blätter sind oval und haben eine spitz zulaufende Spitze. Die Früchte sind oval und haben eine raue, braune Schale. Das Fruchtfleisch ist grün und hat eine saftige, leicht säuerliche bis süße Geschmacksnote.",
+    "habitat": "Kiwis stammen aus China, sind aber heute in vielen gemäßigten Klimazonen anzutreffen, insbesondere in Neuseeland, Italien, Chile und den USA.",
+    "associated_plants": [
+      "Andere Kletterpflanzen wie Weinreben oder Kletterrosen.",
+      "Unterstützende Pflanzen wie Bambus, Schilf oder Weiden."
+    ],
+    "uses": [
+      "Kiwis sind eine reiche Quelle von Vitamin C und Ballaststoffen und können roh oder in vielen verschiedenen Gerichten gegessen werden.",
+      "Die Früchte werden oft in der Lebensmittelindustrie als Zutat in Säften, Smoothies, Kuchen und Desserts verwendet.",
+      "Kiwis werden auch in der traditionellen chinesischen Medizin eingesetzt, um Verdauungsbeschwerden zu lindern."
+    ],
+    "references": [{
+        "common_name": "Kiwis",
+        "scientific_name": "Actinidia deliciosa",
+        "family": "Actinidiaceae",
+        "genus": "Actinidia",
+        "species": "deliciosa",
+        "synonyms": [
+          "Actinidia chinensis var. deliciosa",
+          "Actinidia macrocarpa",
+          "Actinidia chinensis subsp. deliciosa"
+        ],
+        "description": "Die Kiwi ist eine laubabwerfende Kletterpflanze, die eine Wuchshöhe von bis zu 10 Metern erreichen kann. Die Blätter sind oval und haben eine spitz zulaufende Spitze. Die Früchte sind oval und haben eine raue, braune Schale. Das Fruchtfleisch ist grün und hat eine saftige, leicht säuerliche bis süße Geschmacksnote.",
+        "habitat": "Kiwis stammen aus China, sind aber heute in vielen gemäßigten Klimazonen anzutreffen, insbesondere in Neuseeland, Italien, Chile und den USA.",
+        "associated_plants": [
+          "Andere Kletterpflanzen wie Weinreben oder Kletterrosen.",
+          "Unterstützende Pflanzen wie Bambus, Schilf oder Weiden."
+        ],
+        "uses": [
+          "Kiwis sind eine reiche Quelle von Vitamin C und Ballaststoffen und können roh oder in vielen verschiedenen Gerichten gegessen werden.",
+          "Die Früchte werden oft in der Lebensmittelindustrie als Zutat in Säften, Smoothies, Kuchen und Desserts verwendet.",
+          "Kiwis werden auch in der traditionellen chinesischen Medizin eingesetzt, um Verdauungsbeschwerden zu lindern."
+        ],
+        "references": [
+          "Ferguson, A. R. (1999). Kiwifruit, In Horticultural Reviews, 23, 267-297. John Wiley & Sons.",
+          "Ferguson, A. R., & Huang, H. W. (2019). Actinidia (kiwifruit), In Fruit Breeding. Springer, Cham.",
+          "Wang, S. Y., & Millner, P. (2013). The Kiwifruit: Composition, nutritional value, and health benefits. In Advances in food and nutrition research (Vol. 68, pp. 111-138). Academic Press."
+        ]
+      }
+      
+      "Ferguson, A. R. (1999). Kiwifruit, In Horticultural Reviews, 23, 267-297. John Wiley & Sons.",
+      "Ferguson, A. R., & Huang, H. W. (2019). Actinidia (kiwifruit), In Fruit Breeding. Springer, Cham.",
+      "Wang, S. Y., & Millner, P. (2013). The Kiwifruit: Composition, nutritional value, and health benefits. In Advances in food and nutrition research (Vol. 68, pp. 111-138). Academic Press."
+    ]
+  }
+  

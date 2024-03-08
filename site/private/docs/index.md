@@ -1,0 +1,3 @@
+# Intranet
+
+TODO: encryption

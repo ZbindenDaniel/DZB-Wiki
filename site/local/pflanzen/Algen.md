@@ -1,0 +1,1 @@
+Im Sommer kann evtl. Treibstoff hergestellt(Algen-, Biogas, Methanol-, Holz) werden, der im Winter benutzt wird um notwendige Energie bereitzustellen.

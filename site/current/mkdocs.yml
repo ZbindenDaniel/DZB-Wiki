@@ -1,0 +1,9 @@
+
+site_name: Aktuell
+site_description: Wiki-Artige Dokumentensammlung zur projektorganisation
+
+nav:
+  #- Home: 'index.md'
+  - 'Tasks/Spatenstich'
+  - 'Tasks/Anfang Terrassierung'
+  - 'Tasks/Anfang Bepflanzung'

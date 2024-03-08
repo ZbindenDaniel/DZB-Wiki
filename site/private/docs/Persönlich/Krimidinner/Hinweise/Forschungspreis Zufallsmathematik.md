@@ -1,0 +1,3 @@
+Sehr geehrter XX YY (4576.487.DF)
+
+Mit grosser Freude teilen wir Ihnen mit, das Sie mit Ihrer Arbeit zum Thema "Mathematik und Zufälle - Was irrationale zahlen mit Würfeln zu tun haben" den Schlaubischlumpf-Forschungspreis gewonnen haben. Dadurch das Sie die Zahl PI) bis zur 15. Stelle  **( PI=3.14159265358979)** durch ihre neue Form der Zufallsmathematik bestimmt haben konnten neue Durchbrüche in der Kreisberechnung gemacht werden.

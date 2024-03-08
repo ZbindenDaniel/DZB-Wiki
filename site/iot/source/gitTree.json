@@ -1,0 +1,95 @@
+{
+  "sha": "525d55b0ae47f0b8f555f5079d11b291aba17f43",
+  "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/trees/525d55b0ae47f0b8f555f5079d11b291aba17f43",
+  "tree": [
+    {
+      "path": "iot/source/blink.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0fc2041af0c3757a3100e7546b1022a3d46db63",
+      "size": 408,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/b0fc2041af0c3757a3100e7546b1022a3d46db63"
+    },
+    {
+      "path": "iot/source/boot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a849ca7ab8b7247d4e2d2de08452f6bc2dece33",
+      "size": 1932,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/3a849ca7ab8b7247d4e2d2de08452f6bc2dece33"
+    },
+    {
+      "path": "iot/source/configuration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d51c5369c41c9388c4e2eb274fcfc5c4439a8f89",
+      "size": 2710,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/d51c5369c41c9388c4e2eb274fcfc5c4439a8f89"
+    },
+    {
+      "path": "iot/source/fileHandler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d67f8f3c70b922fa59be1c9e5c0a5aadc3410d9",
+      "size": 563,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/2d67f8f3c70b922fa59be1c9e5c0a5aadc3410d9"
+    },
+    {
+      "path": "iot/source/gitTree.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3510b3de3a446cfacee0fa02bc783cdbc180512e",
+      "size": 2811,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/3510b3de3a446cfacee0fa02bc783cdbc180512e"
+    },
+    {
+      "path": "iot/source/ledControl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e614a638d8882737a8b87d274ae73d29a88c479f",
+      "size": 377,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/e614a638d8882737a8b87d274ae73d29a88c479f"
+    },
+    {
+      "path": "iot/source/logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae2e30f7d808aaaf7c17eb7483dec9fd84c1387d",
+      "size": 1398,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/ae2e30f7d808aaaf7c17eb7483dec9fd84c1387d"
+    },
+    {
+      "path": "iot/source/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccbe3a864555390ace7a2e283e4d1974df49f94e",
+      "size": 855,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/ccbe3a864555390ace7a2e283e4d1974df49f94e"
+    },
+    {
+      "path": "iot/source/socket.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94c6d3165a48485a4518824beef95a9b0a31f3d5",
+      "size": 1407,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/94c6d3165a48485a4518824beef95a9b0a31f3d5"
+    },
+    {
+      "path": "iot/source/ugit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a0909926eed9bbfb0458f7f602d3672c91f3054",
+      "size": 7302,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/1a0909926eed9bbfb0458f7f602d3672c91f3054"
+    },
+    {
+      "path": "iot/source/webserver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9da80df291908d1874946b60e9d868ebc2c041",
+      "size": 4695,
+      "url": "https://api.github.com/repos/ZbindenDaniel/Birgisch/git/blobs/1a9da80df291908d1874946b60e9d868ebc2c041"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,29 @@
+name: IOT-Node-Build
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10"]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      working-directory: ./iot/source
+      run: |
+        python -m pip install --upgrade pip
+        pip install pylint
+    - name: Analysing the code with pylint
+      working-directory: ./iot/source
+      run: |
+        pylint $(git ls-files '*.py')
+    - name: Pytype Python Checker
+    # You may pin to the exact commit or the version.
+    # uses: theahura/pytype-action@83188a10fef4b23f61ece9aef0b3950d7d893bed
+      uses: theahura/pytype-action@v1.6

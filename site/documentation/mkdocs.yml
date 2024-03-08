@@ -1,0 +1,16 @@
+
+site_name: Dokumentation
+site_description: Wiki-Artige Dokumentensammlung zur projektorganisation
+
+nav:
+  - Home: 'index.md'
+  - 'Einleitung.md'
+  - 'Philosophie.md'
+  - 'Rechtsgrundlagen.md'
+  - 'Grünanlagen.md'
+  - 'Risikos.md'
+  - Systemfunktionen: 'Systemfunktionen/'
+  - Pflanzen: 'Pflanzen/'
+  - Konzepte: 'Konzepte/'
+  - 'IT'
+  - 'Links.md'
