@@ -1,1 +1,0 @@
-Marienkäfer fressen Läuse

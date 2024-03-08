@@ -1,0 +1,60 @@
+{
+    "device": {
+        "userAgent": {
+                "type": "text",
+                "value": "ThisIsOnlyAnExample"
+        }
+    },
+    "git": {
+        "user": {
+            "type": "text",
+            "value": "ZbindenDaniel"
+        },
+        "repository": {
+            "type": "text",
+            "value": "Birgisch"
+        },
+        "token": {
+            "type": "password",
+            "value": "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"
+        },
+        "default_branch": {
+            "type": "text",
+            "value": "main"
+        },
+        "logLevel": {
+            "type": "number",
+            "value": "2"
+        }
+    },
+    "webServer": {
+        "STA": {
+            "ssid": {
+                "type": "text",
+                "value": "Salt_2GHz_CBF21C"
+            },
+            "password": {
+                "type": "password",
+                "value": "nvUjbFHw2j2TpuoA2K"
+            }
+        },
+        "AP": {
+            "essid": {
+                "type": "text",
+                "value": "PicoConfig"
+            },
+            "password": {
+                "type": "password",
+                "value": "123456789"
+            }
+        }
+    },
+    "interval": {
+        "type": "number",
+        "value": 30
+    },
+    "sensor_threshold": {
+        "type": "number",
+        "value": 25.0
+    }
+}

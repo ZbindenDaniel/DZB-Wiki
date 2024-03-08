@@ -1,1 +1,0 @@
-https://permakultur-konkret.ch/umsetzung-uebersicht/pflanzenkunde/standor-zeigerarten/

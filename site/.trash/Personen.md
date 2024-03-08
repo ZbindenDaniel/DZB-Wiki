@@ -1,4 +1,0 @@
-
-## Liste aller Unterstützenden
-
-TODO

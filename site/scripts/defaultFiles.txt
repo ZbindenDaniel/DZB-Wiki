@@ -1,5 +1,0 @@
-404.html
-index.html
-sitemap.xml
-sitemap.xml.gz
- 

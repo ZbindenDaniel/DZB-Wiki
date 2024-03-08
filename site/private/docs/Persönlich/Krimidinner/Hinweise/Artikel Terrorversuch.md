@@ -1,1 +1,0 @@
-Der/Die den Behörden bereits  bekannte unruhestifter (XYZ - 4578.551.AC) wurde beim Versuch gefasst. eine Bombe im Regierungsgebäude zu detonieren.  Er hat das oft benutzte Kühlmittel 'Kühlifix' mit handelsüblichem Salz vermischt. Das Kühlmittel hat sich zwar etwas erwärmt und verflüssigt aber es ist zu keiner Explosion gekommen.
