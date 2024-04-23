@@ -1,35 +1,28 @@
 [
     {
         "title": "**Phase 0:** Vorbereitung",
-        "content": "- Leute ins Boot holen \n - [[Generalkonzept]] verfassen \n - [[Rechtsgrundlagen]] bestimmen \n - [[Spatenstich[['",
+        "content": "- Leute ins Boot holen \n - Konzept verfassen \n - Experimente",
         "icon": ":pencil2:",
-        "sub_title": "2023 [5%]"
-    },
-    {
-        "title": "**Phase 1:** Experimente",
-        "content": "- Messdaten erheben \n - Im kleinen Rahmen Experimente durchführen (Mauerwerke, Bepflanzungen, Bäume, Wasser,)",
-        "icon": ":scientist_tone1:",
-        "key": "cyan",
-        "sub_title": "2024-[5%]"
+        "sub_title": "2023-2024 [5%]"
     },
     {
         "title": "**Phase 2:** Bereitstellung",
-        "content": " - Genaue Erfassung des Landes \n - Strukturelle Arbeiten (Terrassen, Mauern) \n - Bäume pflanzen \n - Pflanzbare Arten bestimmen \n - Biomasse Bereitstellen",
+        "content": " - Genauere \n - Strukturelle Arbeiten (Terrassen, Mauern) \n - Bäume pflanzen \n - Pflanzbare Arten bestimmen \n - Biomasse Bereitstellen",
         "icon": ":pick:",
-        "sub_title": "2025 [25%]"
+        "sub_title": "2025 [20%]"
     },
     {
         "title": "**Phase 3:** Ausbau",
-        "content": "- Infrastruktur ausbauen (Solar, Wasser) \n - Wohnquartiere bereitstellen \n - Gartenbeete erstellen",
+        "content": "- Infrastruktur ausbauen (evtl. Solar, Wasser) \n - Wohnquartiere bereitstellen \n - Gartenbeete erstellen",
         "icon": ":rocket:",
         "key": "pink",
         "sub_title": "2026 [30%]"
     },
     {
-        "title": "**Phase 4:** Nutzung",
+        "title": "**Phase 4:** Nutzung?",
         "content": "???",
         "icon": ":potted_plant:",
         "key": "pink",
-        "sub_title": "2027 [60%]"
+        "sub_title": "2027 [?%]"
     }
 ]
